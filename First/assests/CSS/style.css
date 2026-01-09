@@ -1,0 +1,115 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* NAVBAR */
+.hero-nav {
+  background: transparent;
+  padding: 25px 0;
+}
+
+.nav-link {
+  color: #3f3a55;
+  font-weight: 500;
+}
+
+.search-icon {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero-section {
+  background: linear-gradient(135deg, #a8e6cf, #c9f7e6);
+  padding: 70px 0 40px;
+}
+
+.hero-title {
+  font-size: 64px;
+  font-weight: 800;
+  color: #3f3a55;
+  letter-spacing: 2px;
+}
+
+.hero-text {
+  max-width: 600px;
+  margin: 20px auto;
+  color: #4a4a4a;
+}
+
+.hero-btn {
+  background: #4b4768;
+  color: white;
+  padding: 12px 35px;
+  border-radius: 4px;
+  font-weight: 600;
+  border: none;
+}
+
+.hero-btn:hover {
+  background: #3f3a55;
+}
+
+.hero-image img {
+  max-width: 900px;
+}
+
+/* SLIDER DOTS */
+.dots span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #3f3a55;
+  border-radius: 50%;
+  margin: 0 4px;
+  opacity: 0.5;
+}
+
+.dots span:nth-child(2) {
+  opacity: 1;
+}
+
+
+/* STATS SECTION */
+.stats-section {
+  position: relative;
+  background: url("../Images/girl2.png") center/cover no-repeat;
+  padding: 120px 0 100px;
+  color: white;
+}
+
+/* Dark overlay */
+.stats-section .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(63, 58, 85, 0.9);
+}
+
+/* Content above overlay */
+.stats-content {
+  position: relative;
+  z-index: 2;
+}
+
+.stats-title {
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.stats-text {
+  max-width: 650px;
+  margin: 20px auto 0;
+  opacity: 0.85;
+}
+
+.stats-number {
+  font-size: 52px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.stats-label {
+  font-size: 16px;
+  opacity: 0.85;
+}
